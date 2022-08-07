@@ -1,0 +1,35 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+:root{
+    .theme{
+        --color__primary: #{$color__primary};
+        --color__secondary: #{$color__secondary};
+        --color__text: #{$color__text};
+        --background__color: #{$background__color};
+
+        &--dark{
+            --color__primary: #{$color__primary--dark};
+            --color__secondary: #{$color__secondary--dark};
+            --color__text: #{$color__text--dark};
+            --background__color: #{$background__color--dark};
+        }
+    }
+}
+
+html, body {
+    background-color: var(--background__color);
+    color: var(--color__text);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: $navbar-size;
+}
