@@ -21,7 +21,7 @@ export const ThemeButton = () => {
 
     return (
         <>
-            <button className="theme__button" onClick={ darkMode }><i className={ (theme ?  'fa-regular fa-sun' : 'fa-solid fa-moon') }></i></button>
+            <button className="theme__button" onClick={ darkMode }><i className={ (theme ? 'fa-solid fa-moon' : 'fa-solid fa-sun') }></i></button>
         </>
     )
 }
