@@ -4,7 +4,7 @@
     height: $navbar-size;
     position: fixed;
     z-index: 999;
-    transition: .8s ease-in-out;
+    transition: .5s ease-in-out;
 }
 
 .navbar__nav{
@@ -55,7 +55,7 @@
             color: var(--color__text);
 
             &:active{
-                color: var(--color__primary);
+                color: var(--background__color);
             }
         }
     }
@@ -69,6 +69,10 @@
             background-color: transparent;
             font-size: 20px;
             color: var(--color__text);
+
+            &:active{
+                color: var(--background__color);
+            }
         }
     }
 }

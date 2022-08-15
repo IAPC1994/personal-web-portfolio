@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 
@@ -31,5 +33,5 @@ ul li{
 .container{
     width: 80%;
     margin: auto;
-    padding-top: $navbar-size;
+    height: 100vh;
 }
