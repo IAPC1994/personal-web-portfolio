@@ -37,6 +37,20 @@
     .home__container--description{
         @extend .home__container--title;
         justify-content: center;
+        & a{
+            text-decoration: none;
+            color: var(--color__primary);
+            font-weight: bold;
+            padding: 0px;
+
+            & a:hover{
+                color: var(--color__secondary);
+            }
+
+            & i{
+                margin-right: 5px;
+            }
+        }
     }
 }
 

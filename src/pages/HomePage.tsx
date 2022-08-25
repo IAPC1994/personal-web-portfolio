@@ -1,4 +1,7 @@
+import { Link } from 'react-router-dom';
+
 import Img from '../assets/perfil_1.png';
+import Pdf from '../assets/CV.pdf';
 
 export const HomePage = () => {
     return (
@@ -14,6 +17,8 @@ export const HomePage = () => {
                 <p> I'm a profesional passionate about </p>
                 <p> development of web and mobile </p>
                 <p> applications. </p>
+                <br />
+                <Link to={ Pdf } target='_blank' download><i className="fa-solid fa-file"></i>Download CV</Link>
             </div>
         </div>
     )
